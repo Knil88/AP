@@ -4,7 +4,7 @@
 
 <template>
     <div class="video_container " >
-            <video class="video_bg"  src="../assets/Video_bg_2 - Realizzato con Clipchamp.mp4"  autoplay loop muted  ></video>
+            <video class="video_bg"  src="../assets/Video_bg.mp4"  autoplay loop muted  ></video>
             <div class="logo_container" >
                 <img   src="../assets/ap-logo-white.svg.svg" alt="">
                
@@ -24,6 +24,7 @@
     .video_container{
       
         position: relative;
+      
        
     }
     .logo_container{

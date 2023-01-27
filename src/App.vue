@@ -49,7 +49,7 @@ export default{
     <div class="pos_img">
       <img class="img_loading" src="./assets/AP_LWHITE.png" alt="">
     </div>
-    <img src="./assets/Dual Ring-1s-200px.svg" alt="">
+    <img id="loader"  src="./assets/Eclipse-1s-200px.svg" alt="">
    </div>
   </div >
  <div v-else>
@@ -84,6 +84,12 @@ export default{
     left: 50%;
     transform: translate(-50%, -50%);
 
+  }
+  #loader{
+   
+    align-content: center;
+    margin-right: 22px;
+    
   }
  
 
